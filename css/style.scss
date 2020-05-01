@@ -22,9 +22,6 @@ body {
       padding: 0;
       color: $color-grey100;
       background-color: $color-grey0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
 }
 
 a {
@@ -56,7 +53,7 @@ input[type="radio"].visually-hidden {
       width: 100%;
       box-sizing: border-box;
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       background-color: $color-grey100;
 }
 
@@ -86,7 +83,7 @@ input[type="radio"].visually-hidden {
 .main {
       width: 100%;
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       background-color: $color-grey0;
 }
 
@@ -223,7 +220,7 @@ input[type="radio"].visually-hidden {
 .footer {
       width: 100%;
       padding: 0;
-      margin: 0;
+      margin: 0 auto;
       background-color: $color-grey0;
 }
 
@@ -269,13 +266,29 @@ input[type="radio"].visually-hidden {
       font-size: 20px;
       line-height: 1.5;
       color: $color-blue1;
+      transition: 0.2s;
 }
+
+.contacts__item-link:hover,
+.contacts__item-link:focus,
+.contacts__item-link:active {
+      opacity: 0.7;
+}
+
 
 .contacts-img {
       width: 105px;
       height: 105px;
-
+      transition: 0.2s;
 }
+
+.contacts-img:hover,
+.contacts-img:focus,
+.contacts-img:active {
+      transform: scale(1.2);
+}
+
+
 
 
 @media (min-width: 768px) {
@@ -475,7 +488,6 @@ input[type="radio"].visually-hidden {
             width: 768px;
             font-size: 20px;
       }
-
 
 
 }
