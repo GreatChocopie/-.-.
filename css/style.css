@@ -57,6 +57,7 @@ input[type=radio].visually-hidden {
 .header__wrapper {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   width: 100%;
   box-sizing: border-box;
   padding: 25px 20px 45px 20px;
@@ -211,6 +212,7 @@ input[type=radio].visually-hidden {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin: 0 0 55px 0;
   padding: 0;
 }
@@ -222,6 +224,8 @@ input[type=radio].visually-hidden {
 .my-work__figure-img--wrapper {
   width: 100%;
   margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 .my-works__work-two {
@@ -242,6 +246,8 @@ input[type=radio].visually-hidden {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
@@ -302,27 +308,40 @@ input[type=radio].visually-hidden {
 
 /* Tablets */
 @media (min-width: 768px) {
-  .header__title {
-    box-sizing: border-box;
+  .header__wrapper {
+    padding: 35px 30px 45px 30px;
   }
 
-  .about-me__text--desktop {
-    display: block;
-    padding-bottom: 8px;
-    margin: 0;
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: 600;
+  .header__menu-button {
+    width: 30px;
+    height: 15px;
   }
 
-  .work-one__figure-img--wrapper {
-    min-height: 475px;
+  .header__menu-button::before {
+    width: 30px;
+    height: 2px;
   }
 
-  .work-three__figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .header__menu-button::after {
+    width: 30px;
+    height: 2px;
+  }
+
+  .about-me {
+    padding: 25px 30px 100px 30px;
+  }
+
+  .my-works {
+    padding: 0 30px 45px 30px;
+  }
+
+  .contacts {
+    padding: 0 30px 260px 30px;
+  }
+
+  .contacts__text {
+    width: 553px;
+    margin-bottom: 25px;
   }
 }
 /* Desktops */
