@@ -1,5 +1,14 @@
 /* Tablets */
 @media (min-width: 768px) {
+  body {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 19px;
+    line-height: 1.5;
+  }
+
   .header__wrapper {
     padding: 35px 30px 45px 30px;
   }
@@ -27,12 +36,22 @@
     padding: 0 30px 45px 30px;
   }
 
+  .my-work__figure-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .my-work__figure-img--small {
+    max-width: 560px;
+    height: auto;
+  }
+
   .contacts {
     padding: 0 30px 260px 30px;
   }
 
   .contacts__text {
-    width: 553px;
+    width: 500px;
     margin-bottom: 25px;
   }
 }

@@ -1,5 +1,14 @@
 /* Tablets */
 @media (min-width: 768px) {
+    body {
+        font-size: 19px;
+    }
+
+    p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+
     .header__wrapper {
         padding: 35px 30px 45px 30px;
     }
@@ -20,26 +29,23 @@
     }
 
 
-
-    // .about-me__text--desktop {
-    //     display: block;
-    //     padding-bottom: 30px;
-    //     margin: 0;
-    //     font-size: 24px;
-    //     line-height: 1.2;
-    //     font-weight: 600;
-    // }
-
     .about-me {
         padding: 25px 30px 100px 30px;
     }
 
-    // .about-me__text {
-    //     display: none;
-    // }
 
     .my-works {
         padding: 0 30px 45px 30px;
+    }
+
+    .my-work__figure-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .my-work__figure-img--small {
+        max-width: 560px;
+        height: auto;
     }
 
     .contacts {
@@ -47,7 +53,7 @@
     }
 
     .contacts__text {
-        width: 553px;
+        width: 500px;
         margin-bottom: 25px;
     }
 }
