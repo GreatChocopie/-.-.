@@ -34,6 +34,9 @@ p {
 
 .header {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
@@ -44,7 +47,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 25px 20px 45px 20px;
   margin: 0 auto;
@@ -79,6 +83,7 @@ p {
 }
 
 .header__title {
+  width: 100%;
   padding: 0;
   margin: 60px 0 40px 0;
   color: #FFFFFF;
@@ -106,6 +111,9 @@ p {
 
 .main {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
@@ -115,7 +123,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 25px 20px 100px 20px;
@@ -186,7 +195,8 @@ p {
 }
 
 .my-works {
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 20px 45px 20px;
@@ -254,6 +264,9 @@ p {
 
 .footer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   margin: 0 auto;
 }
@@ -386,8 +399,9 @@ p {
 /* Desktops */
 @media (min-width: 1024px) {
   .header__wrapper {
-    width: 800px;
-    padding: 60px 0 70px 0;
+    min-width: 1024px;
+    max-width: 1124px;
+    padding: 60px 112px 70px 112px;
   }
 
   .header__menu-button {
@@ -395,7 +409,6 @@ p {
   }
 
   .header__title {
-    padding: 0;
     margin: 0 0 45px 0;
     font-weight: 500;
     opacity: 0.5;
@@ -421,8 +434,9 @@ p {
   }
 
   .about-me {
-    width: 800px;
-    padding: 35px 0 115px 0;
+    min-width: 1024px;
+    max-width: 1124px;
+    padding: 35px 112px 115px 112px;
   }
 
   .about-me__text {
@@ -457,6 +471,8 @@ p {
   }
 
   .my-works {
+    min-width: 1024px;
+    max-width: 1280px;
     padding: 0 40px 75px 40px;
   }
 
@@ -472,8 +488,6 @@ p {
 
   .my-works__work-one {
     align-items: center;
-    min-width: 945px;
-    max-width: 100%;
     margin-bottom: 60px;
   }
 
@@ -488,11 +502,17 @@ p {
 
   .my-works__work-two {
     align-items: center;
-    min-width: 945px;
-    max-width: 100%;
+  }
+
+  .my-works__work-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contacts {
+    min-width: 1024px;
+    max-width: 1280px;
     padding: 0 40px 445px 40px;
   }
 

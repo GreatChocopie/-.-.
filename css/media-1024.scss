@@ -2,8 +2,9 @@
 @media (min-width: 1024px) {
 
     .header__wrapper {
-        width: 800px;
-        padding: 60px 0 70px 0;
+        min-width: 1024px;
+        max-width: 1124px;
+        padding: 60px 112px 70px 112px;
     }
 
     .header__menu-button {
@@ -11,7 +12,6 @@
     }
 
     .header__title {
-        padding: 0;
         margin: 0 0 45px 0;
         font-weight: 500;
         opacity: 0.5;
@@ -37,8 +37,9 @@
     }
 
     .about-me {
-        width: 800px;
-        padding: 35px 0 115px 0;
+        min-width: 1024px;
+        max-width: 1124px;
+        padding: 35px 112px 115px 112px;
     }
 
     .about-me__text {
@@ -73,6 +74,8 @@
     }
 
     .my-works {
+        min-width: 1024px;
+        max-width: 1280px;
         padding: 0 40px 75px 40px;
     }
 
@@ -88,8 +91,6 @@
 
     .my-works__work-one {
         align-items: center;
-        min-width: 945px;
-        max-width: 100%;
         margin-bottom: 60px;
     }
 
@@ -104,11 +105,17 @@
 
     .my-works__work-two {
         align-items: center;
-        min-width: 945px;
-        max-width: 100%;
+    }
+
+    .my-works__work-three {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .contacts {
+        min-width: 1024px;
+        max-width: 1280px;
         padding: 0 40px 445px 40px;
     }
 
