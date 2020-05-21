@@ -351,30 +351,56 @@ p {
   }
 
   .header__wrapper {
-    padding: 35px 30px 45px 30px;
+    padding: 35px 60px 45px 60px;
   }
 
   .header__menu-button {
-    width: 30px;
-    height: 15px;
+    display: none;
   }
 
-  .header__menu-button::before {
-    width: 30px;
-    height: 2px;
+  .header__title {
+    margin: 0 0 45px 0;
+    font-weight: 500;
+    opacity: 0.5;
   }
 
-  .header__menu-button::after {
-    width: 30px;
-    height: 2px;
+  .about-me__text--desktop {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #FFFFFF;
   }
 
   .about-me {
-    padding: 25px 30px 100px 30px;
+    padding: 25px 60px 100px 60px;
+  }
+
+  .about-me__text {
+    display: none;
+  }
+
+  .about-me__features-header {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
   }
 
   .my-works {
-    padding: 0 30px 45px 30px;
+    padding: 0 60px 45px 60px;
+  }
+
+  .my-work-header {
+    width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #000000;
   }
 
   .my-work__figure-img {
@@ -388,7 +414,7 @@ p {
   }
 
   .contacts {
-    padding: 0 30px 260px 30px;
+    padding: 0 60px 260px 60px;
   }
 
   .contacts__text {
@@ -402,16 +428,6 @@ p {
     min-width: 1024px;
     max-width: 1124px;
     padding: 60px 112px 70px 112px;
-  }
-
-  .header__menu-button {
-    display: none;
-  }
-
-  .header__title {
-    margin: 0 0 45px 0;
-    font-weight: 500;
-    opacity: 0.5;
   }
 
   .about-me__text--desktop {
@@ -439,18 +455,8 @@ p {
     padding: 35px 112px 115px 112px;
   }
 
-  .about-me__text {
-    display: none;
-  }
-
   .about-me__features {
     margin-top: 50px;
-  }
-
-  .about-me__features-header {
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.3;
   }
 
   .about-me__features-list {
@@ -474,16 +480,6 @@ p {
     min-width: 1024px;
     max-width: 1280px;
     padding: 0 40px 75px 40px;
-  }
-
-  .my-work-header {
-    width: 800px;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.3;
-    color: #000000;
   }
 
   .my-works__work-one {
