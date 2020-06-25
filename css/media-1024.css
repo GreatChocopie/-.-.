@@ -1,21 +1,16 @@
 /* Desktops */
 @media (min-width: 1024px) {
   .header__wrapper {
-    width: 800px;
-    padding: 60px 0 85px 0;
+    min-width: 1024px;
+    max-width: 1124px;
+    padding: 60px 112px 70px 112px;
   }
-
-  .header__menu-button {
-    display: none;
-  }
-
   .header__title {
-    padding: 0;
-    margin: 0 0 45px 0;
+    margin: 250px 0 45px 0;
     font-weight: 500;
-    opacity: 0.5;
+    opacity: 0.55;
+    color: #32fc54;
   }
-
   .about-me__text--desktop {
     display: block;
     padding: 0;
@@ -24,16 +19,87 @@
     font-size: 48px;
     font-weight: 500;
     line-height: 1.2;
-    font-weight: 600;
+    color: #FFFFFF;
   }
-
   .header__blocks {
-    padding: 10px 20px;
+    padding: 12px 20px 9px 20px;
     margin-bottom: 15px;
+    line-height: 25px;
     margin-right: 15px;
     font-size: 16px;
-    border-radius: 24px;
+    border-radius: 26px;
+  }
+  .about-me {
+    min-width: 1024px;
+    max-width: 1124px;
+    padding: 35px 112px 115px 112px;
+  }
+  .about-me__features {
+    margin-top: 50px;
+  }
+  .about-me__features-list {
+    padding-bottom: 225px;
+  }
+  .about-me__features-list::before {
+    height: 115px;
+    background-size: 45px 115px;
+  }
+  .about-me__features-item {
+    padding: 0 0 15px 40px;
+  }
+  .about-me__features-item::after {
+    width: 20px;
+  }
+  .my-works {
+    min-width: 1024px;
+    max-width: 1280px;
+    padding: 0 40px 75px 40px;
+  }
+  .my-works__work-one {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 60px;
+  }
+  .my-work__figure-text {
+    width: 800px;
+    margin-bottom: 25px;
+  }
+  .my-work__figure-img--wrapper {
+    margin-bottom: 50px;
+  }
+  .my-works__work-two {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .my-works__work-three {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contacts {
+    min-width: 1024px;
+    max-width: 1280px;
+    padding: 0 40px 445px 40px;
+  }
+  .contacts::before {
+    height: 103px;
+    bottom: 265px;
+    background-size: 103px 103px;
+  }
+  .contacts__text {
+    margin-bottom: 25px;
+  }
+  .contacts__item {
+    margin-bottom: 20px;
   }
 }
-
 /*# sourceMappingURL=media-1024.css.map */

@@ -3,46 +3,69 @@
   body {
     font-size: 19px;
   }
-
   p {
     font-size: 19px;
     line-height: 1.5;
   }
-
   .header__wrapper {
     padding: 35px 60px 45px 60px;
   }
-
   .header__menu-button {
     display: none;
   }
-
+  .header__title {
+    margin: 0px 0 45px 0;
+    font-weight: 500;
+    opacity: 0.55;
+    color: blue;
+  }
+  .about-me__text--desktop {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
   .about-me {
-    padding: 25px 30px 100px 30px;
+    padding: 25px 60px 100px 60px;
   }
-
+  .about-me__text {
+    display: none;
+  }
+  .about-me__features-header {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
   .my-works {
-    padding: 0 30px 45px 30px;
+    padding: 0 60px 45px 60px;
   }
-
+  .my-work-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #111;
+  }
   .my-work__figure-img {
     width: 100%;
     height: auto;
   }
-
   .my-work__figure-img--small {
     max-width: 560px;
     height: auto;
   }
-
   .contacts {
-    padding: 0 30px 260px 30px;
+    padding: 0 60px 260px 60px;
   }
-
   .contacts__text {
     width: 500px;
     margin-bottom: 25px;
   }
 }
-
 /*# sourceMappingURL=media-768.css.map */
