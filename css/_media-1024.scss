@@ -21,9 +21,6 @@
         width: 78px;
         height: 78px;
         border: solid 5px $color-grey100;
-    }
-
-    .header__logo span {
         font-size: 48px;
         font-weight: 500;
     }
@@ -48,6 +45,7 @@
     .about-me {
         max-width: 1500px;
         padding: 0;
+        margin-bottom: 205px;
     }
 
     .about-me__title {
@@ -71,7 +69,7 @@
     .about-me__text {
         padding: 0;
         margin: 0 0 85px 0;
-        line-height: 1.3;
+        line-height: 1.1;
         font-size: 80px;
         font-weight: 500;
         color: $color-grey100;
@@ -99,75 +97,83 @@
     }
 
     .my-works {
-        min-width: 1024px;
-        max-width: 1280px;
-        padding: 0 40px 50px 40px;
+        max-width: 1500px;
+        padding: 0;
+    }
+
+    .my-work-header {
+        max-width: 1070px;
+        margin-bottom: 55px;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.5;
+
+    }
+
+    .my-work__figure-list {
+        padding: 30px 0 30px 30px;
+        margin: 0;
+    }
+
+    .my-work__figure-list li {
+        margin-bottom: 20px;
     }
 
     .my-works__work-one {
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: 60px;
     }
 
     .my-work__figure-text {
-        width: 800px;
-        margin-bottom: 25px;
+        max-width: 1070px;
+        margin-bottom: 60px;
     }
 
     .my-work__figure-img--wrapper {
-        margin-bottom: 50px;
+        margin-bottom: 90px;
     }
 
     .my-works__work-two {
-        align-items: center;
+        align-items: flex-start;
     }
 
     .my-works__work-three {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .contacts {
-        min-width: 1024px;
-        max-width: 1280px;
-        padding: 0 40px 300px 40px;
+        max-width: 1500px;
+        padding: 0 0 330px 0;
     }
 
     .contacts::before {
-        height: 80px;
-        bottom: 145px;
+        height: 65px;
+        bottom: 230px;
         background-size: 65px;
+        background-size: 65px 65px;
     }
 
     .contacts__text {
         margin-bottom: 25px;
     }
 
+    .contacts__list {
+
+        margin: 0 0 195px 0;
+
+    }
+
     .contacts__item {
-        margin-bottom: 20px;
+        margin-bottom: 60px;
     }
 
-    .my-work-header {
-        max-width: 800px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 25px;
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 1.3;
-        color: #111;
+    .contacts__item-link {
+        font-size: 56px;
     }
 
-    .my-work__figure-img--wrapper-full-width {
-        text-align: center;
-        margin-left: calc(-50vw + 50% + 50px);
-        margin-right: calc(-50vw + 50% + 50px);
-    }
 
-    .my-work__figure-img-full-width {
-        // max-width: 1400px;
-        // width: calc(100% - 100px);
-        // margin: 0 50px 0 50px;
-    }
+
+
 }
