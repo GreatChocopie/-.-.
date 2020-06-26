@@ -8,6 +8,7 @@ body {
     color: $color-font;
     background-color: $color-grey0;
     font-size: 19px;
+    line-height: 1.5;
 }
 
 img {
@@ -56,20 +57,23 @@ p {
 }
 
 .header__logo {
+    position: relative;
     width: 50px;
     height: 50px;
+    padding: 10px;
     margin-right: 35px;
     box-sizing: border-box;
     border-radius: 50%;
     border: 3px solid $color-grey100;
     align-self: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: baseline;
     font-size: 30px;
     font-weight: 500;
     color: $color-grey100;
 }
+
 
 .header__title {
     display: none;
@@ -245,13 +249,14 @@ p {
 
 .my-work__figure-text {
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .my-work__figure-img--wrapper {
     width: 100%;
     margin-bottom: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .my-work__figure-img {
@@ -264,16 +269,6 @@ p {
     height: auto;
 }
 
-.my-works__work-two {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-}
-
-.my-works__work-three {
-    display: none;
-}
 
 .footer {
     width: 100%;
