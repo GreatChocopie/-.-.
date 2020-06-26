@@ -19,3 +19,15 @@ $color-blue1: #512eff;
 $color-blue2: #0f1d38;
 $top-buttons: #f2f2f2;
 $color-pink1: #feedf3;
+
+
+@keyframes slideDown {
+      from {
+            transform: translate(0, -1000px);
+      }
+
+      to {
+            transform: translate(0, 0);
+      }
+
+}
