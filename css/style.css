@@ -293,7 +293,6 @@ p {
   width: 17px;
   height: 1px;
   background-color: #333;
-  color: #333;
 }
 
 .my-works {
@@ -365,9 +364,6 @@ p {
 .footer {
   width: 100%;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 0 20px;
   box-sizing: border-box;
   margin: 0 auto;
@@ -376,16 +372,13 @@ p {
 .contacts {
   width: 100%;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   position: relative;
   margin: 0 auto;
   padding: 0 0 140px 0;
 }
 
 .contacts::before {
+  display: block;
   content: "";
   width: 100%;
   height: 45px;
