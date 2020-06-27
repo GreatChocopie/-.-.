@@ -295,7 +295,7 @@ p {
 }
 
 .about-me__features-item::after {
-    display: inline-block;
+    display: block;
     content: "";
     position: absolute;
     top: 10px;
