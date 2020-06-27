@@ -92,7 +92,7 @@
     // }
 
     .about-me__features-item {
-        padding: 0 0 15px 40px;
+        padding: 0 0 0 40px;
     }
 
     .about-me__features-item::after {
@@ -162,6 +162,7 @@
     }
 
     .contacts__text {
+        max-width: 500px;
         margin-bottom: 25px;
     }
 
